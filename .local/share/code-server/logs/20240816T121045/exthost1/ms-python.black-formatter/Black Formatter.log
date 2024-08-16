@@ -1,0 +1,94 @@
+2024-08-16 12:23:15.651 [info] Name: Black Formatter
+2024-08-16 12:23:15.651 [info] Module: black
+2024-08-16 12:23:15.651 [info] Default formatter is set to null for workspace /home/lipcowe
+2024-08-16 12:23:15.651 [warning] Black Formatter is NOT set as the default formatter for workspace /home/lipcowe
+2024-08-16 12:23:15.651 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2024-08-16 12:23:15.651 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2024-08-16 12:23:15.651 [info] Python extension loading
+2024-08-16 12:23:15.651 [info] Waiting for interpreter from python extension.
+2024-08-16 12:23:15.651 [info] No interpreter found from setting black-formatter.interpreter
+2024-08-16 12:23:15.651 [info] Getting interpreter from ms-python.python extension for workspace /home/lipcowe
+2024-08-16 12:23:15.651 [info] Python extension loaded
+2024-08-16 12:23:15.651 [info] Interpreter from ms-python.python extension for /home/lipcowe: /home/lipcowe/my_venv/bin/python
+2024-08-16 12:23:15.651 [info] Workspace settings for /home/lipcowe (client side): {
+    "cwd": "/home/lipcowe",
+    "workspace": "file:///home/lipcowe",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/home/lipcowe/my_venv/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2024-08-16 12:23:15.651 [info] No interpreter found from setting black-formatter.interpreter
+2024-08-16 12:23:15.651 [info] Getting interpreter from ms-python.python extension for workspace /home/lipcowe
+2024-08-16 12:23:15.651 [info] Interpreter from ms-python.python extension for /home/lipcowe: /home/lipcowe/my_venv/bin/python
+2024-08-16 12:23:15.651 [info] Workspace settings for /home/lipcowe (client side): {
+    "cwd": "/home/lipcowe",
+    "workspace": "file:///home/lipcowe",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/home/lipcowe/my_venv/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2024-08-16 12:23:15.651 [info] Global settings (client side): {
+    "cwd": "/home/lipcowe",
+    "workspace": "/home/lipcowe",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2024-08-16 12:23:15.651 [info] Server run command: /home/lipcowe/my_venv/bin/python /home/lipcowe/.local/share/code-server/extensions/ms-python.black-formatter-2024.2.0-universal/bundled/tool/lsp_server.py
+2024-08-16 12:23:15.651 [info] Server: Start requested.
+2024-08-16 12:23:16.086 [info] CWD Server: /home/lipcowe
+2024-08-16 12:23:16.086 [info] Settings received on server:
+[
+    {
+        "cwd": "/home/lipcowe",
+        "workspace": "file:///home/lipcowe",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/lipcowe/my_venv/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2024-08-16 12:23:16.086 [info] Global settings received on server:
+{
+    "cwd": "/home/lipcowe",
+    "workspace": "/home/lipcowe",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2024-08-16 12:23:16.086 [info] sys.path used to run Server:
+   /home/lipcowe/.local/share/code-server/extensions/ms-python.black-formatter-2024.2.0-universal/bundled/libs
+   /home/lipcowe/.local/share/code-server/extensions/ms-python.black-formatter-2024.2.0-universal/bundled/tool
+   /usr/lib/python312.zip
+   /usr/lib/python3.12
+   /usr/lib/python3.12/lib-dynload
+   /home/lipcowe/my_venv/lib/python3.12/site-packages
+2024-08-16 12:23:16.090 [info] /home/lipcowe/my_venv/bin/python -m black --version
+2024-08-16 12:23:16.090 [info] CWD formatter: /home/lipcowe
+2024-08-16 12:23:16.355 [info] Version info for formatter running for /home/lipcowe:
+black, 24.3.0 (compiled: no)
+Python (CPython) 3.12.3
+
+2024-08-16 12:23:16.355 [info] SUPPORTED black>=22.3.0
+FOUND black==24.3.0
+

@@ -1,0 +1,337 @@
+[2024-08-16T12:09:34.456Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2024-08-16T12:09:34.457Z] info  Using user-data-dir /home/lipcowe/.local/share/code-server
+[2024-08-16T12:09:34.471Z] info  Using config file /home/lipcowe/.config/code-server/config.yaml
+[2024-08-16T12:09:34.471Z] info  HTTP server listening on http://127.0.0.1:13337/
+[2024-08-16T12:09:34.471Z] info    - Authentication is disabled
+[2024-08-16T12:09:34.471Z] info    - Not serving HTTPS
+[2024-08-16T12:09:34.471Z] info  Using proxy URI in PORTS tab: https://{{port}}--main--rrsartpl123--lipcowe--8gomv7abpofs8.pit-1.try.coder.app
+[2024-08-16T12:09:34.471Z] info  Session server listening on /home/lipcowe/.local/share/code-server/code-server-ipc.sock
+[12:10:45] 
+
+
+
+
+[12:10:45] Extension host agent started.
+[12:10:45] Started initializing default profile extensions in extensions installation folder. file:///home/lipcowe/.local/share/code-server/extensions
+[12:10:45] Completed initializing default profile extensions in extensions installation folder. file:///home/lipcowe/.local/share/code-server/extensions
+[12:10:49] [127.0.0.1][2e048a2a][ManagementConnection] New connection established.
+[12:10:52] [127.0.0.1][5af7a45e][ExtensionHostConnection] New connection established.
+[12:10:52] [127.0.0.1][5af7a45e][ExtensionHostConnection] <597> Launched Extension Host Process.
+[12:11:21] Getting Manifest... ms-python.python
+[12:11:21] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:11:22] Getting Manifest... ms-python.debugpy
+[12:11:22] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[12:11:23] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+[12:11:23] Renamed to /home/lipcowe/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+[12:11:24] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal: ms-python.python
+[12:11:24] Renamed to /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal
+[12:11:24] Extension installed successfully: ms-python.debugpy file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:11:24] Extension installed successfully: ms-python.python file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:11:29] Getting Manifest... ms-azuretools.vscode-docker
+[12:11:29] Installing extension: ms-azuretools.vscode-docker {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:11:30] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/ms-azuretools.vscode-docker-1.29.1-universal: ms-azuretools.vscode-docker
+[12:11:30] Renamed to /home/lipcowe/.local/share/code-server/extensions/ms-azuretools.vscode-docker-1.29.1-universal
+[12:11:30] Extension installed successfully: ms-azuretools.vscode-docker file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:11:44] Getting Manifest... formulahendry.code-runner
+[12:11:44] Installing extension: formulahendry.code-runner {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:11:45] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/formulahendry.code-runner-0.12.2-universal: formulahendry.code-runner
+[12:11:45] Renamed to /home/lipcowe/.local/share/code-server/extensions/formulahendry.code-runner-0.12.2-universal
+[12:11:45] Extension installed successfully: formulahendry.code-runner file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:11:55] Getting Manifest... formulahendry.auto-close-tag
+[12:11:56] Installing extension: formulahendry.auto-close-tag {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:11:56] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/formulahendry.auto-close-tag-0.5.15-universal: formulahendry.auto-close-tag
+[12:11:56] Renamed to /home/lipcowe/.local/share/code-server/extensions/formulahendry.auto-close-tag-0.5.15-universal
+[12:11:56] Extension installed successfully: formulahendry.auto-close-tag file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:12:12] Getting Manifest... hookyqr.beautify
+[12:12:12] Installing extension: hookyqr.beautify {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:12:13] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/hookyqr.beautify-1.4.11-universal: hookyqr.beautify
+[12:12:13] Renamed to /home/lipcowe/.local/share/code-server/extensions/hookyqr.beautify-1.4.11-universal
+[12:12:13] Extension installed successfully: hookyqr.beautify file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:12:30] Getting Manifest... dsznajder.es7-react-js-snippets
+[12:12:30] Installing extension: dsznajder.es7-react-js-snippets {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:12:31] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/dsznajder.es7-react-js-snippets-4.4.3-universal: dsznajder.es7-react-js-snippets
+[12:12:31] Renamed to /home/lipcowe/.local/share/code-server/extensions/dsznajder.es7-react-js-snippets-4.4.3-universal
+[12:12:31] Extension installed successfully: dsznajder.es7-react-js-snippets file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:12:45] Getting Manifest... formulahendry.auto-rename-tag
+[12:12:45] Installing extension: formulahendry.auto-rename-tag {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:12:46] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/formulahendry.auto-rename-tag-0.1.10-universal: formulahendry.auto-rename-tag
+[12:12:46] Renamed to /home/lipcowe/.local/share/code-server/extensions/formulahendry.auto-rename-tag-0.1.10-universal
+[12:12:46] Extension installed successfully: formulahendry.auto-rename-tag file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:12:54] Getting Manifest... oderwat.indent-rainbow
+[12:12:55] Installing extension: oderwat.indent-rainbow {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:12:56] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/oderwat.indent-rainbow-8.3.1-universal: oderwat.indent-rainbow
+[12:12:56] Renamed to /home/lipcowe/.local/share/code-server/extensions/oderwat.indent-rainbow-8.3.1-universal
+[12:12:56] Extension installed successfully: oderwat.indent-rainbow file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:13:02] Getting Manifest... ms-python.black-formatter
+[12:13:02] Installing extension: ms-python.black-formatter {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:13:03] Getting Manifest... ms-python.python
+[12:13:04] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/ms-python.black-formatter-2024.2.0-universal: ms-python.black-formatter
+[12:13:04] Renamed to /home/lipcowe/.local/share/code-server/extensions/ms-python.black-formatter-2024.2.0-universal
+[12:13:04] Extension installed successfully: ms-python.black-formatter file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:13:35] Getting Manifest... shd101wyy.markdown-preview-enhanced
+[12:13:36] Installing extension: shd101wyy.markdown-preview-enhanced {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:13:37] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.13-universal: shd101wyy.markdown-preview-enhanced
+[12:13:37] Renamed to /home/lipcowe/.local/share/code-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.13-universal
+[12:13:37] Extension installed successfully: shd101wyy.markdown-preview-enhanced file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:14:15] Getting Manifest... coenraads.bracket-pair-colorizer
+[12:14:15] Installing extension: coenraads.bracket-pair-colorizer {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:14:16] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/coenraads.bracket-pair-colorizer-1.0.62-universal: coenraads.bracket-pair-colorizer
+[12:14:16] Renamed to /home/lipcowe/.local/share/code-server/extensions/coenraads.bracket-pair-colorizer-1.0.62-universal
+[12:14:16] Extension installed successfully: coenraads.bracket-pair-colorizer file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:14:30] Getting Manifest... coenraads.bracket-pair-colorizer-2
+[12:14:31] Installing extension: coenraads.bracket-pair-colorizer-2 {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:14:31] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal: coenraads.bracket-pair-colorizer-2
+[12:14:31] Renamed to /home/lipcowe/.local/share/code-server/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal
+[12:14:31] Extension installed successfully: coenraads.bracket-pair-colorizer-2 file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:14:34] Getting Manifest... naumovs.color-highlight
+[12:14:34] Installing extension: naumovs.color-highlight {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:14:35] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/naumovs.color-highlight-2.8.0-universal: naumovs.color-highlight
+[12:14:35] Renamed to /home/lipcowe/.local/share/code-server/extensions/naumovs.color-highlight-2.8.0-universal
+[12:14:35] Extension installed successfully: naumovs.color-highlight file:///home/lipcowe/.local/share/code-server/extensions/extensions.json
+[12:14:39] Getting Manifest... ms-python.pylint
+[12:14:40] Installing extension: ms-python.pylint {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/lipcowe/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/lipcowe/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[12:14:40] Getting Manifest... ms-python.python
+[12:14:41] Extracted extension to file:///home/lipcowe/.local/share/code-server/extensions/ms-python.pylint-2023.10.1-universal: ms-python.pylint
+[12:14:41] Renamed to /home/lipcowe/.local/share/code-server/extensions/ms-python.pylint-2023.10.1-universal
+[12:14:41] Extension installed successfully: ms-python.pylint file:///home/lipcowe/.local/share/code-server/extensions/extensions.json

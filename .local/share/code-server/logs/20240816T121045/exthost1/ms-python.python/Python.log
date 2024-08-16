@@ -1,0 +1,118 @@
+2024-08-16 12:11:26.709 [info] Experiment 'pythonaa' is active
+2024-08-16 12:11:26.709 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-16 12:11:26.709 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-16 12:11:26.709 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-16 12:11:26.709 [info] Experiment 'pythonTestAdapter' is active
+2024-08-16 12:11:26.709 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/lipcowe/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586747
+	at /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/lipcowe/.pixi/envs'
+}
+2024-08-16 12:11:26.710 [error] Dir "/home/lipcowe/.pixi/envs" is not watchable (directory does not exist)
+2024-08-16 12:11:26.830 [info] Default formatter is set to null for workspace /home/lipcowe
+2024-08-16 12:11:26.837 [info] Starting Environment refresh
+2024-08-16 12:11:26.837 [info] Searching for interpreters in posix paths locator
+2024-08-16 12:11:26.842 [info] Searching for pyenv environments
+2024-08-16 12:11:26.842 [info] Searching for conda environments
+2024-08-16 12:11:26.843 [info] Searching for global virtual environments
+2024-08-16 12:11:26.843 [info] Searching for custom virtual environments
+2024-08-16 12:11:26.849 [info] pyenv is not installed
+2024-08-16 12:11:26.849 [info] Finished searching for pyenv environments: 11 milliseconds
+2024-08-16 12:11:26.849 [info] Finished searching for custom virtual envs: 10 milliseconds
+2024-08-16 12:11:26.855 [info] > conda info --json
+2024-08-16 12:11:26.860 [info] > pixi --version
+2024-08-16 12:11:26.860 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-16 12:11:26.864 [info] > hatch env show --json
+2024-08-16 12:11:26.865 [info] cwd: .
+2024-08-16 12:11:26.869 [info] > pyenv which python
+2024-08-16 12:11:26.869 [info] cwd: .
+2024-08-16 12:11:26.870 [info] Finished searching for global virtual envs: 31 milliseconds
+2024-08-16 12:11:26.882 [info] Finished searching for interpreters in posix paths locator: 46 milliseconds
+2024-08-16 12:11:26.882 [info] Environments refresh paths discovered (event): 47 milliseconds
+2024-08-16 12:11:26.882 [info] Environments refresh finished (event): 47 milliseconds
+2024-08-16 12:11:26.882 [info] Environments refresh paths discovered: 47 milliseconds
+2024-08-16 12:11:26.885 [info] Environment refresh took 49 milliseconds
+2024-08-16 12:11:26.886 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:26.891 [info] > python -c "import sys;print(sys.executable)"
+2024-08-16 12:11:26.892 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-08-16 12:11:26.897 [info] > pyenv which python
+2024-08-16 12:11:26.897 [info] cwd: .
+2024-08-16 12:11:26.898 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:27.381 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:27.383 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2024-08-16 12:11:28.381 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-08-16 12:11:28.384 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:28.384 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:28.387 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:28.389 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:28.437 [info] Shell integration status changed, can confirm it's working.
+2024-08-16 12:11:28.438 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:28.440 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:28.441 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:11:32.834 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:14:42.622 [info] Discover tests for workspace name: lipcowe - uri: /home/lipcowe/.local/share/code-server/extensions/.8069607c-980f-4d0e-bc6d-df22c2b8ff63/pyproject.toml
+2024-08-16 12:16:22.295 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:16:22.295 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:22:05.573 [info] > ./my_venv/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-16 12:22:05.573 [info] Environments refresh paths discovered: 18 milliseconds
+2024-08-16 12:22:05.606 [info] Environments refresh finished (event): 51 milliseconds
+2024-08-16 12:22:05.609 [warning] could not find a pixi interpreter for the interpreter at python
+2024-08-16 12:22:10.131 [info] Running installed packages checker:  {
+  id: '/home/lipcowe/my_venv/bin/python',
+  sysPrefix: '/home/lipcowe/my_venv',
+  envType: 'Venv',
+  envName: 'my_venv',
+  envPath: '/home/lipcowe/my_venv',
+  path: '/home/lipcowe/my_venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jul 31 2024, 17:43:48) [GCC 13.2.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('my_venv')",
+  detailedDisplayName: "Python 3.12.3 ('my_venv': venv)",
+  type: 'Virtual'
+} /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/installed_check.py /home/lipcowe/requirements.txt
+2024-08-16 12:22:10.131 [info] > ./my_venv/bin/python ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/installed_check.py ./requirements.txt
+2024-08-16 12:22:10.131 [info] Discover tests for workspace name: lipcowe - uri: /home/lipcowe
+2024-08-16 12:22:10.132 [warning] could not find a pixi interpreter for the interpreter at /home/lipcowe/my_venv/bin/python
+2024-08-16 12:22:10.132 [info] Python interpreter path: ./my_venv/bin/python
+2024-08-16 12:22:10.624 [info] > python ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/printEnvVariables.py
+2024-08-16 12:22:10.624 [info] shell: bash
+2024-08-16 12:22:10.869 [info] Prepending environment variable PATH in collection with /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/deactivate/bash:/home/lipcowe/my_venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-16 12:22:10.869 [info] Prepending environment variable PS1 in collection with (my_venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-08-16 12:22:10.871 [info] Send text to terminal: python /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/printEnvVariablesToFile.py /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/deactivate/bash/envVars.txt
+2024-08-16 12:22:11.114 [info] Starting Jedi language server for lipcowe.

@@ -1,0 +1,95 @@
+2024-08-16 12:23:15.651 [info] Name: Pylint
+2024-08-16 12:23:15.652 [info] Module: pylint
+2024-08-16 12:23:15.652 [info] Python extension loading
+2024-08-16 12:23:15.652 [info] Waiting for interpreter from Python extension.
+2024-08-16 12:23:15.652 [info] No interpreter found from setting pylint.interpreter
+2024-08-16 12:23:15.652 [info] Getting interpreter from ms-python.python extension for workspace /home/lipcowe
+2024-08-16 12:23:15.652 [info] Python extension loaded
+2024-08-16 12:23:15.652 [info] Interpreter from ms-python.python extension for /home/lipcowe: /home/lipcowe/my_venv/bin/python
+2024-08-16 12:23:15.652 [info] No interpreter found from setting pylint.interpreter
+2024-08-16 12:23:15.652 [info] Getting interpreter from ms-python.python extension for workspace /home/lipcowe
+2024-08-16 12:23:15.652 [info] Interpreter from ms-python.python extension for /home/lipcowe: /home/lipcowe/my_venv/bin/python
+2024-08-16 12:23:15.652 [info] Server run command: /home/lipcowe/my_venv/bin/python /home/lipcowe/.local/share/code-server/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2024-08-16 12:23:15.652 [info] Server: Start requested.
+2024-08-16 12:23:16.074 [info] CWD Server: /home/lipcowe
+2024-08-16 12:23:16.074 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/lipcowe",
+        "workspace": "file:///home/lipcowe",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/home/lipcowe/my_venv/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2024-08-16 12:23:16.074 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/lipcowe",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2024-08-16 12:23:16.074 [info] sys.path used to run Server:
+   /home/lipcowe
+   /home/lipcowe/.local/share/code-server/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/lipcowe/.local/share/code-server/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python312.zip
+   /usr/lib/python3.12
+   /usr/lib/python3.12/lib-dynload
+   /home/lipcowe/my_venv/lib/python3.12/site-packages
+2024-08-16 12:23:16.078 [info] /home/lipcowe/my_venv/bin/python -m pylint --version
+2024-08-16 12:23:16.078 [info] CWD Linter: /home/lipcowe
+2024-08-16 12:23:16.552 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.12.3 (main, Jul 31 2024, 17:43:48) [GCC 13.2.0]
+
+
+2024-08-16 12:23:16.553 [info] Version info for linter running for /home/lipcowe:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.12.3 (main, Jul 31 2024, 17:43:48) [GCC 13.2.0]
+
+2024-08-16 12:23:16.553 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2024-08-16 12:23:16.582 [info] [Trace - 12:23:16 PM] Received notification 'window/logMessage'.
+2024-08-16 12:23:16.582 [info] /home/lipcowe/my_venv/bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/lipcowe/my_venv/app.py
+2024-08-16 12:23:16.582 [info] [Trace - 12:23:16 PM] Received notification 'window/logMessage'.
+2024-08-16 12:23:16.582 [info] CWD Linter: /home/lipcowe
+2024-08-16 12:23:16.802 [info] [Trace - 12:23:16 PM] Sending request 'textDocument/codeAction - (1)'.
+2024-08-16 12:23:17.062 [info] [Trace - 12:23:17 PM] Received notification 'window/logMessage'.
+2024-08-16 12:23:17.062 [info] file:///home/lipcowe/my_venv/app.py :
+[]
+
+2024-08-16 12:23:17.064 [info] [Trace - 12:23:17 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-08-16 12:23:17.068 [info] [Trace - 12:23:17 PM] Received response 'textDocument/codeAction - (1)' in 266ms.

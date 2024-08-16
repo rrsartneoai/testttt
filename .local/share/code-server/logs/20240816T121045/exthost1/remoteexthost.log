@@ -1,0 +1,49 @@
+2024-08-16 12:10:54.775 [info] Extension host with pid 597 started
+2024-08-16 12:10:54.790 [info] Lock '/home/lipcowe/.local/share/code-server/User/workspaceStorage/4ea36b21/vscode.lock': Lock acquired.
+2024-08-16 12:10:55.081 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-16 12:10:55.339 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-16 12:10:55.625 [info] Eager extensions activated
+2024-08-16 12:10:55.626 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-16 12:10:55.626 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-16 12:10:58.843 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-16 12:10:59.042 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-16 12:10:59.043 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-16 12:10:59.043 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-16 12:10:59.043 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-16 12:11:25.982 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2024-08-16 12:11:26.561 [error] Error: spawn /home/lipcowe/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-16 12:11:31.710 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onWalkthrough:dockerStart'
+2024-08-16 12:11:46.488 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-08-16 12:11:57.762 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: false, activationEvent: '*'
+2024-08-16 12:12:14.155 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: false, activationEvent: '*'
+2024-08-16 12:12:32.561 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2024-08-16 12:12:47.227 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: false, activationEvent: '*'
+2024-08-16 12:12:57.533 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: false, activationEvent: '*'
+2024-08-16 12:14:17.696 [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: false, activationEvent: '*'
+2024-08-16 12:14:32.623 [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: '*'
+2024-08-16 12:14:36.050 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-08-16 12:15:07.052 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-16 12:23:14.715 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: false, activationEvent: 'onLanguage:python'
+2024-08-16 12:23:14.715 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-08-16 12:23:14.715 [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: false, activationEvent: 'onLanguage:python'
+2024-08-16 12:23:23.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-08-16 12:23:24.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10343
+2024-08-16 12:23:24.814 [error] Error: No such branch: main.
+    at F.getBranch (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:935457)
+    at T.retryRun (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1028191)
+    at T.run (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1027795)
+    at T.getBranch (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1016176)
+    at T.getBranchBase (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1016462)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:945925)
+    at t.GitHistoryProvider.onDidRunGitStatus (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:940157)
+2024-08-16 12:23:25.090 [error] Error: No such branch: main.
+    at F.getBranch (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:935457)
+    at T.retryRun (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1028191)
+    at T.run (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1027795)
+    at T.getBranch (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1016176)
+    at T.getBranchBase (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1016462)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:945925)
+    at t.GitHistoryProvider.onDidRunGitStatus (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:940157)
