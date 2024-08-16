@@ -47,3 +47,4 @@
     at T.getBranchBase (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:1016462)
     at t.GitHistoryProvider.resolveHEADMergeBase (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:945925)
     at t.GitHistoryProvider.onDidRunGitStatus (/tmp/code-server/lib/code-server-4.91.1/lib/vscode/extensions/git/dist/main.js:2:940157)
+2024-08-16 12:23:59.993 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
